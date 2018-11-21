@@ -1,8 +1,12 @@
 # Data Science for design
 **Group member:** Zhenfei Gao, Junxian Meng, Zhihan Qiu
+
 **Google Slide Document:** https://docs.google.com/presentation/d/1fGH2CNy9qjQzutcXeayXqNNJV_ui23Ob4euXTjMZGhM/edit#slide=id.g47d2252d64_0_0
 
+**Meeting Google Dos: **https://docs.google.com/document/d/1hB2oF8UmmA8AiZmCiPK0yuwrhB8SIg7ksjv-d7YmSBk/edit#
+
 **Group Meeting Schedule:**
+
 - 1st Group Meeting: Nov 1
 - 2nd Group Meeting: Nov 8
 - 3nd Group Meeting: Nov 15
@@ -32,4 +36,6 @@
 - washing machine
 - washing machine tumbledrier
 
- ## Assignment 3/4 Due: Dec 29
+ ## Assignment 3/4 Pre: Nov 29
+
+## Assignment 3/4 Due: Dec 5
