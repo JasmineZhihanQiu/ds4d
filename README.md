@@ -5,6 +5,8 @@
 
 **Meeting Google Dos: **https://docs.google.com/document/d/1hB2oF8UmmA8AiZmCiPK0yuwrhB8SIg7ksjv-d7YmSBk/edit#
 
+**Website Interface 1st Vision Zeplin Link:** https://zpl.io/aREweWz
+
 **Group Meeting Schedule:**
 
 - 1st Group Meeting: Nov 1
