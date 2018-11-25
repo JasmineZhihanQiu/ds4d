@@ -1,6 +1,4 @@
-- 
-
-# Topic/ Understanding electrical energy use in the home
+## Topic/ Understanding electrical energy use in the home
 
 ## Context
 
