@@ -1,0 +1,289 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html" /> 
+  <title>Understanding Electrical Energy Use in The Home</title> 
+  <style type="text/css">
+ body{
+           padding: 0px;
+           margin: 0px;
+  }
+html{
+  width:100%;height:100%;margin:0px;border:0px;padding:0px;
+}
+.Rectangle {
+  height: 100%;
+  	width:-webkit-calc(100% - 301px);
+	width:-moz-calc(100% - 301px);
+	width:calc(100% - 301px);
+  position:relative;
+  top: 0px;
+  left: 301px;
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+.Rectangle-Copy {
+  width: 300px;
+  height: 100%;
+  box-shadow: 0 0 12px 0 #000000;
+  
+  background-color: #ffffff;
+  position:fixed;
+  left:1px;
+  top:0px;
+}
+.RectangleA {
+  width: 18px;
+  height: 5px;
+  left:141px;
+  background-color: #004460;
+}
+
+#a1 {
+  position:absolute;
+  top:50px;
+}
+
+#a2 {
+  position:absolute;
+  top:440px;
+}
+
+#a3 {
+  position:absolute;
+  top:795px;
+}
+
+.title {
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #004460;
+}
+
+#Kitchen {
+  width: 81px;
+  height: 26px;
+  position:absolute;
+  left:109.5px;
+  top:43px;
+}
+
+#Bathroom {
+  width: 104px;
+  height: 26px;
+  position:absolute;
+  left:98px;
+  top:433px;
+}
+
+#KitchenImg {
+  width: 109px;
+  height: 100px;
+  position:absolute;
+  left:95.5px;
+  top:109px;
+}
+
+#BathroomImg {
+  width: 111px;
+  height: 100px;
+  position:absolute;
+  left:94.5px;
+  top:499px;
+}
+
+.aspect {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #004460;
+  background-color: inherit;
+  padding: 3px 3px;
+  border: none;
+  height: 22px;
+}
+
+#Topic-1---Using-Pere {
+  width: 184px;
+  position:absolute;
+  left:58px;
+  top:229px;
+}
+
+#Topic-2---Using-at-T {
+  width: 239px;
+  position:absolute;
+  left:30.5px;
+  top:263px;
+} 
+
+#Topic-3---Frequency {
+  width: 228px;
+  position:absolute;
+  left:36px;
+  top:297px;
+}  
+
+#Topic-4---Cooking- {
+  width: 206px;
+  position:absolute;
+  left:47px;
+  top:331px;
+} 
+
+#Topic-5---Frequency {
+  width: 228px;
+  position:absolute;
+  left:36px;
+  top:365px;
+}   
+
+#Topic-6---Frequency {
+  width: 228px;
+  position:absolute;
+  left:36px;
+  top:399px;
+}   
+
+#Topic-1---Shower-Fre {
+  width: 206px;
+  position:absolute;
+  left:47px;
+  top:619px;
+}  
+
+#Topic-2---Shower-Dur {
+  width: 191px;
+  position:absolute;
+  left:54.5px;
+  top:653px;
+}  
+
+#Topic-3---Washing-Ma {
+  width: 278px;
+  position:absolute;
+  left:11px;
+  top:687px;
+}    
+
+#Topic-4---Washing-Du {
+  width: 263px;
+  position:absolute;
+  left:18.5px;
+  top:721px;
+}   
+
+#Topic-5---Correlatio {
+  width: 150px;
+  position:absolute;
+  left:75px;
+  top:755px;
+}
+
+#Zhenfei-Gao {
+  width: 95px;
+  position:absolute;
+  left:102.5px;
+  top:811px;
+}   
+
+#Junxian-Meng {
+  width: 106px;
+  position:absolute;
+  left:97px;
+  top:845px;
+}   
+
+#Zhihan-Qiu {
+  width: 85px;
+  position:absolute;
+  left:107.5px;
+  top:879px;
+}   
+
+</style> 
+<script>
+function resizeImage(obj){
+obj.height="auto";
+
+obj.width="100%";            
+
+}
+
+
+</script>
+
+ </head> 
+ <body> 
+  <div class="Rectangle-Copy"> 
+   <div class="RectangleA" id="a1"></div> 
+   <div class="title" id="Kitchen"> 
+    <p>Kitchen</p> 
+   </div> 
+   <div id="KitchenImg"> 
+    <img src="kitchen-icon.png" width="109" height="100" /> 
+   </div> 
+   <div id="BathroomImg"> 
+    <img src="bathroom-icon.png" width="111" height="100" /> 
+   </div> 
+   <button class="aspect" id="Topic-1---Using-Pere" value=0 onclick='change("Topic-1---Using-Pere", "Bathroom@1x.png");'>Topic 1 - Using Perences</button> 
+   <button class="aspect" id="Topic-2---Using-at-T" value=1 onclick='change("Topic-2---Using-at-T", "Bathroom@1x.png");'>Topic 2 - Using at The Sametime</button> 
+   <button class="aspect" id="Topic-3---Frequency" value=2 onclick='change("Topic-3---Frequency", "Bathroom@1x.png");'>Topic 3 - Frequency of Cooking</button> 
+   <button class="aspect" id="Topic-4---Cooking-" value=3 onclick='change("Topic-4---Cooking-", "Bathroom@1x.png");'>Topic 4 - Cooking & Season</button> 
+   <button class="aspect" id="Topic-5---Frequency" value=4 onclick='change("Topic-5---Frequency", "Bathroom@1x.png");'>Topic 5 - Frequency of Cooking</button> 
+   <button class="aspect" id="Topic-6---Frequency" value=5 onclick='change("Topic-6---Frequency", "Bathroom@1x.png");'>Topic 6 - Frequency of Cooking</button> 
+   <div class="RectangleA" id="a2"></div> 
+   <div class="title" id="Bathroom"> 
+    <p>Bathroom</p> 
+   </div> 
+   <button class="aspect" id="Topic-1---Shower-Fre" value=6 onclick='change("Topic-1---Shower-Fre", "Bathroom@1x.png");'>Topic 1 - Shower Frequency</button> 
+   <button class="aspect" id="Topic-2---Shower-Dur" value=7 onclick='change("Topic-2---Shower-Dur", "Bathroom@1x.png");'>Topic 2 - Shower Duration</button> 
+   <button class="aspect" id="Topic-3---Washing-Ma" value=8 onclick='change("Topic-3---Washing-Ma", "Bathroom@1x.png");'>Topic 3 - Washing Machine Frequency</button> 
+   <button class="aspect" id="Topic-4---Washing-Du" value=9 onclick='change("Topic-4---Washing-Du", "Bathroom@1x.png");'>Topic 4 - Washing Machine Duration</button> 
+   <button class="aspect" id="Topic-5---Correlatio" value=9 onclick='change("Topic-5---Correlatio", "Bathroom@1x.png");'>Topic 5 - Correlation</button> 
+   <div class="RectangleA" id="a3"></div> 
+   <button class="aspect" id="Zhenfei-Gao">Zhenfei Gao</button> 
+   <button class="aspect" id="Junxian-Meng">Junxian Meng</button> 
+   <button class="aspect" id="Zhihan-Qiu">Zhihan Qiu</button> 
+  </div> 
+
+<div class="Rectangle"> 
+   <img id ="main" src="" width="100%" height="auto" /> 
+</div>  
+
+ <script  type="text/javascript">
+	
+	
+	var selected = "Topic-1---Using-Pere";
+	function change(id, srcs) {
+		sd = ["Topic-1---Using-Pere","Topic-2---Using-at-T","Topic-3---Frequency","Topic-4---Cooking-","Topic-5---Frequency","Topic-6---Frequency","Topic-1---Shower-Fre","Topic-2---Shower-Dur","Topic-3---Washing-Ma","Topic-4---Washing-Du","Topic-5---Correlatio"]
+		console.log(selected);
+		
+		document.getElementById(selected).style.backgroundColor="#ffffff";
+		document.getElementById(selected).style.color = "#004460";
+		
+		document.getElementById(id).style.backgroundColor="#004460";
+		document.getElementById(id).style.color = "#ffffff";
+		var bigimg = document.getElementById("main");
+		bigimg.src=srcs;
+		selected = sd[document.getElementById(id).value];
+		console.log(document.getElementById(id).value);
+		console.log(selected);
+
+	}
+
+	change(selected,  "Bathroom@1x.png")
+	</script>
+
+ </body>
+</html>
