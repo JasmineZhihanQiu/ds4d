@@ -1,0 +1,264 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html" /> 
+  <title>Understanding Electrical Energy Use in The Home</title> 
+  <style type="text/css">
+ body{
+           padding: 0px;
+           margin: 0px;
+  }
+html{
+  width:100%;height:100%;margin:0px;border:0px;padding:0px;
+}
+.Rectangle {
+  height: 100%;
+  width: 100%;
+  position:relative;
+  top: 0px;
+  left: 0px;
+  background-color: #f5f6fa;
+  overflow: auto;
+}
+
+.Rectangle-Copy {
+  width: 300px;
+  height: 100%;
+  box-shadow: 0 0 18px 0 #cfcfcf;
+  background-color: #f5f6fa;
+  position:fixed;
+  left:0px;
+  top:0px;
+  z-index:10;
+}
+.RectangleA {
+  width: 18px;
+  height: 5px;
+  left:141px;
+  background-color: #004460;
+}
+
+#a1 {
+  position:absolute;
+  top:30px;
+}
+
+#a2 {
+  position:absolute;
+  top:436px;
+}
+
+#a3 {
+  position:absolute;
+  top:796px;
+}
+
+.title {
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #004460;
+}
+
+#Kitchen {
+  width: 81px;
+  height: 26px;
+  position:absolute;
+  left:109.5px;
+  top:23px;
+}
+
+#Bathroom {
+  width: 104px;
+  height: 26px;
+  position:absolute;
+  left:98px;
+  top:429px;
+}
+
+#KitchenImg {
+  width: 109px;
+  height: 100px;
+  position:absolute;
+  left:95.5px;
+  top:89px;
+}
+
+#BathroomImg {
+  width: 111px;
+  height: 100px;
+  position:absolute;
+  left:94.5px;
+  top:490px;
+}
+
+.aspect {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #004460;
+  background-color: inherit;
+  padding: 3px 3px;
+  border: none;
+  height: 22px;
+}
+
+#Cooking-Preference {
+  width: 148px;
+  position:absolute;
+  left:76px;
+  top:209px;
+}
+
+#Duration-of-Cooking {
+  width: 148px;
+  position:absolute;
+  left:76px;
+  top:243px;
+} 
+
+#Daily-Cooking-Patter {
+  width: 161px;
+  position:absolute;
+  left:69.5px;
+  top:277px;
+}  
+
+#Weekly-Cooking-Patte {
+  width: 178px;
+  position:absolute;
+  left:61px;
+  top:311px;
+} 
+
+#Electricity-Consumin {
+  width: 160px;
+  position:absolute;
+  left:70px;
+  top:345px;
+}   
+
+#Dishwasher {
+  width: 90px;
+  position:absolute;
+  left:105px;
+  top:379px;
+}   
+
+#Daily-Shower-Frequen {
+  width: 181px;
+  position:absolute;
+  left:59.5px;
+  top:605px;
+}  
+
+#Weekly-Shower-Durati {
+  width: 182px;
+  position:absolute;
+  left:59px;
+  top:639px;
+}  
+
+#Weekly-Laundry-Frequ {
+  width: 201px;
+  position:absolute;
+  left:49.5px;
+  top:673px;
+}    
+
+#Daily-Laundry-Durati {
+  width: 169px;
+  position:absolute;
+  left:65.5px;
+  top:707px;
+}   
+
+#Correlation {
+  width: 90px;
+  position:absolute;
+  left:105px;
+  top:741px;
+}
+
+#names {
+  width: 182px;
+  position:absolute;
+  left:59px;
+  top:794px;
+}   
+
+</style> 
+<script>
+function resizeImage(obj){
+obj.height="auto";
+
+obj.width="100%";            
+
+}
+
+
+</script>
+
+ </head> 
+ <body> 
+  <div class="Rectangle-Copy"> 
+   <div class="RectangleA" id="a1"></div> 
+   <div class="title" id="Kitchen"> 
+    <p>Kitchen</p> 
+   </div> 
+   <div id="KitchenImg"> 
+    <img src="kitchen-icon.png" width="109" height="100" /> 
+   </div> 
+   <div id="BathroomImg"> 
+    <img src="bathroom-icon.png" width="111" height="100" /> 
+   </div> 
+   <button class="aspect" id="Cooking-Preference" value=0 onclick='change("Cooking-Preference", "Cooking-Preference.png");'>Cooking Preference</button> 
+   <button class="aspect" id="Duration-of-Cooking" value=1 onclick='change("Duration-of-Cooking", "Duration-of-Cooking.png");'>Duration of Cooking</button> 
+   <button class="aspect" id="Daily-Cooking-Patter" value=2 onclick='change("Daily-Cooking-Patter", "Daily-Cooking-Patter");'>Daily Cooking Pattern</button> 
+   <button class="aspect" id="Weekly-Cooking-Patte" value=3 onclick='change("Weekly-Cooking-Patte", "Weekly-Cooking-Patte.png");'>Weekly Cooking Pattern</button> 
+   <button class="aspect" id="Electricity-Consumin" value=4 onclick='change("Electricity-Consumin", "Electricity-Consumin.png");'>Electricity Consuming</button> 
+   <button class="aspect" id="Dishwasher" value=5 onclick='change("Dishwasher", "Dishwasher.png");'>Dishwasher</button> 
+   <div class="RectangleA" id="a2"></div> 
+   <div class="title" id="Bathroom"> 
+    <p>Bathroom</p> 
+   </div> 
+   <button class="aspect" id="Daily-Shower-Frequen" value=6 onclick='change("Daily-Shower-Frequen", "Daily-Shower-Frequen.png");'>Daily Shower Frequency</button> 
+   <button class="aspect" id="Weekly-Shower-Durati" value=7 onclick='change("Weekly-Shower-Durati", "Weekly-Shower-Durati.png");'>Weekly Shower Duration</button> 
+   <button class="aspect" id="Weekly-Laundry-Frequ" value=8 onclick='change("Weekly-Laundry-Frequ", "Weekly-Laundry-Frequ.png");'>Weekly Laundry Frequency</button> 
+   <button class="aspect" id="Daily-Laundry-Durati" value=9 onclick='change("Daily-Laundry-Durati", "Daily-Laundry-Durati.png");'>Daily Laundry Duration</button> 
+   <button class="aspect" id="Correlation" value=10 onclick='change("Correlation", "Correlation.png");'>Correlation</button> 
+   <div class="RectangleA" id="a3"></div> 
+   <p class="aspect" id="names">Zhenfei, Junxian, Zhihan</p> 
+  </div> 
+
+<div class="Rectangle"> 
+   <img id ="main" src="" width="100%" height="auto" /> 
+</div>  
+
+ <script  type="text/javascript">
+	var selected = "Cooking-Preference";
+	function change(id, srcs) {
+		sd = ["Cooking-Preference","Duration-of-Cooking","Daily-Cooking-Patter","Weekly-Cooking-Patte","Electricity-Consumin","Dishwasher","Daily-Shower-Frequen","Weekly-Shower-Durati","Weekly-Laundry-Frequ","Daily-Laundry-Durati","Correlation"]
+		
+		document.getElementById(selected).style.backgroundColor="#f5f6fa";
+		document.getElementById(selected).style.color = "#004460";
+		
+		document.getElementById(id).style.backgroundColor="#004460";
+		document.getElementById(id).style.color = "#f5f6fa";
+		var bigimg = document.getElementById("main");
+		bigimg.src=srcs;
+		selected = sd[document.getElementById(id).value];
+	}
+	change(selected,  "Bathroom@1x.png")
+	</script>
+
+ </body>
+</html>
